@@ -1,10 +1,24 @@
 body {
     margin: 50px;
     font-size: 30px;
+
+    @media screen and (max-width: 520px) {
+        margin: 15px;
+        font-size: 20px;
+    }
 }
 
 a {
     text-decoration: none;
+}
+
+.mobile {
+    display: none;
+    @media screen and (max-width: 185px) {
+        & {
+            display: inline;
+        }
+    }
 }
 
 .title {
@@ -26,5 +40,47 @@ a {
         &-1 {
             font-size: 180px;
         }
+    }
+
+    @media screen and (max-width: 520px) {
+        font-size: 30px;
+
+        &-first {
+
+            &-2 {
+                margin-left: 45px;
+            }
+        }
+
+        &-second {
+            margin-left: 30px;
+            position: relative;
+            top: -40px;
+
+            &-1 {
+                font-size: 60px;
+            }
+        }
+    }
+    @media screen and (max-width: 185px) {
+        font-size: 20px;
+
+        &-first {
+
+            &-2 {
+                margin-left: 0px;
+            }
+        }
+
+        &-second {
+            margin-left: 20px;
+            position: relative;
+            top: 0px;
+
+            &-1 {
+                font-size: 20px;
+            }
+        }
+
     }
 }
