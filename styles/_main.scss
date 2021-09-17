@@ -1,0 +1,30 @@
+body {
+    margin: 50px;
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.title {
+    margin: 0;
+    font-size: 80px;
+
+    &-first {
+
+        &-2 {
+            margin-left: 140px;
+        }
+    }
+
+    &-second {
+        margin-left: 80px;
+        position: relative;
+        top: -115px;
+
+        &-1 {
+            font-size: 180px;
+        }
+    }
+}

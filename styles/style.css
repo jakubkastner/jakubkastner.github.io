@@ -1,0 +1,63 @@
+/** COLORS
+ *  Colors for themes (light, dark).
+ */
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: whitesmoke;
+    color: black;
+  }
+  body a {
+    color: #f5eeef;
+  }
+  body a:hover {
+    color: #1ab26b;
+  }
+  body .title {
+    color: #5e484a;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #060606;
+    color: white;
+  }
+  body a {
+    color: #1ab26b;
+  }
+  body a:hover {
+    color: #a1360c;
+  }
+  body .title {
+    color: #0ec4a5;
+  }
+}
+
+body {
+  margin: 50px;
+  font-size: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.title {
+  margin: 0;
+  font-size: 80px;
+}
+
+.title-first-2 {
+  margin-left: 140px;
+}
+
+.title-second {
+  margin-left: 80px;
+  position: relative;
+  top: -115px;
+}
+
+.title-second-1 {
+  font-size: 180px;
+}
+/*# sourceMappingURL=style.css.map */
