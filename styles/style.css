@@ -59,9 +59,20 @@ a {
   }
 }
 
+p,
+li,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  word-wrap: anywhere;
+}
+
 .title {
   margin: 0;
   font-size: 80px;
+  cursor: context-menu;
 }
 
 .title-first-2 {
@@ -109,6 +120,12 @@ a {
   }
   .title-second-1 {
     font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 120px) {
+  .title-second {
+    margin-left: 0px;
   }
 }
 /*# sourceMappingURL=style.css.map */
