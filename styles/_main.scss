@@ -2,7 +2,7 @@ body {
     margin: 50px;
     font-size: 30px;
 
-    @media screen and (max-width: 520px) {
+    @media screen and (max-width: 540px) {
         margin: 15px;
         font-size: 20px;
     }
@@ -32,6 +32,16 @@ h5 {
     word-wrap: anywhere;
 }
 
+header {
+    max-height: 150px;
+    @media screen and (max-width: 540px) {
+        max-height: 50px;
+    }
+    @media screen and (max-width: 100px) {
+        max-height: fit-content;
+    }
+}
+
 .title {
     margin: 0;
     font-size: 80px;
@@ -54,7 +64,7 @@ h5 {
         }
     }
 
-    @media screen and (max-width: 520px) {
+    @media screen and (max-width: 540px) {
         font-size: 30px;
 
         &-first {
